@@ -12,6 +12,15 @@
 		1A96D6772BCD591400115802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D6762BCD591400115802 /* ViewController.swift */; };
 		1A96D67C2BCD591700115802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A96D67B2BCD591700115802 /* Assets.xcassets */; };
 		1A96D67F2BCD591700115802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A96D67D2BCD591700115802 /* LaunchScreen.storyboard */; };
+		1A96D69D2BCD5F8A00115802 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A96D69A2BCD5F8A00115802 /* Gilroy-Regular.ttf */; };
+		1A96D69E2BCD5F8A00115802 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A96D69B2BCD5F8A00115802 /* Gilroy-Bold.ttf */; };
+		1A96D69F2BCD5F8A00115802 /* Gilroy-Lightitalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A96D69C2BCD5F8A00115802 /* Gilroy-Lightitalic.ttf */; };
+		1A96D6A62BCD5FEC00115802 /* boleeKachestvennyiy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A96D6A02BCD5FEC00115802 /* boleeKachestvennyiy.mp3 */; };
+		1A96D6A72BCD5FEC00115802 /* budilnik.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A96D6A12BCD5FEC00115802 /* budilnik.mp3 */; };
+		1A96D6A82BCD5FEC00115802 /* otvetPrinyat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A96D6A22BCD5FEC00115802 /* otvetPrinyat.mp3 */; };
+		1A96D6A92BCD5FEC00115802 /* otvetVernyiy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A96D6A32BCD5FEC00115802 /* otvetVernyiy.mp3 */; };
+		1A96D6AA2BCD5FEC00115802 /* zvukChasov.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A96D6A42BCD5FEC00115802 /* zvukChasov.mp3 */; };
+		1A96D6AB2BCD5FEC00115802 /* zvukNepravilnogo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1A96D6A52BCD5FEC00115802 /* zvukNepravilnogo.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		1A96D67B2BCD591700115802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A96D67E2BCD591700115802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A96D6802BCD591700115802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A96D69A2BCD5F8A00115802 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		1A96D69B2BCD5F8A00115802 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		1A96D69C2BCD5F8A00115802 /* Gilroy-Lightitalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Lightitalic.ttf"; sourceTree = "<group>"; };
+		1A96D6A02BCD5FEC00115802 /* boleeKachestvennyiy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = boleeKachestvennyiy.mp3; path = Sounds/boleeKachestvennyiy.mp3; sourceTree = "<group>"; };
+		1A96D6A12BCD5FEC00115802 /* budilnik.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = budilnik.mp3; path = Sounds/budilnik.mp3; sourceTree = "<group>"; };
+		1A96D6A22BCD5FEC00115802 /* otvetPrinyat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = otvetPrinyat.mp3; path = Sounds/otvetPrinyat.mp3; sourceTree = "<group>"; };
+		1A96D6A32BCD5FEC00115802 /* otvetVernyiy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = otvetVernyiy.mp3; path = Sounds/otvetVernyiy.mp3; sourceTree = "<group>"; };
+		1A96D6A42BCD5FEC00115802 /* zvukChasov.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zvukChasov.mp3; path = Sounds/zvukChasov.mp3; sourceTree = "<group>"; };
+		1A96D6A52BCD5FEC00115802 /* zvukNepravilnogo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zvukNepravilnogo.mp3; path = Sounds/zvukNepravilnogo.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,12 @@
 				1A96D68B2BCD599600115802 /* Extension */,
 				1A96D68C2BCD59C300115802 /* Fonts */,
 				1A96D68A2BCD599200115802 /* Sounds */,
+				1A96D6A02BCD5FEC00115802 /* boleeKachestvennyiy.mp3 */,
+				1A96D6A12BCD5FEC00115802 /* budilnik.mp3 */,
+				1A96D6A22BCD5FEC00115802 /* otvetPrinyat.mp3 */,
+				1A96D6A32BCD5FEC00115802 /* otvetVernyiy.mp3 */,
+				1A96D6A42BCD5FEC00115802 /* zvukChasov.mp3 */,
+				1A96D6A52BCD5FEC00115802 /* zvukNepravilnogo.mp3 */,
 				1A96D68D2BCD59D500115802 /* Resources */,
 				1A96D6862BCD595100115802 /* Application */,
 			);
@@ -114,6 +138,9 @@
 		1A96D68C2BCD59C300115802 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				1A96D69B2BCD5F8A00115802 /* Gilroy-Bold.ttf */,
+				1A96D69C2BCD5F8A00115802 /* Gilroy-Lightitalic.ttf */,
+				1A96D69A2BCD5F8A00115802 /* Gilroy-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -186,8 +213,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A96D69D2BCD5F8A00115802 /* Gilroy-Regular.ttf in Resources */,
+				1A96D6A62BCD5FEC00115802 /* boleeKachestvennyiy.mp3 in Resources */,
+				1A96D6AA2BCD5FEC00115802 /* zvukChasov.mp3 in Resources */,
+				1A96D6A92BCD5FEC00115802 /* otvetVernyiy.mp3 in Resources */,
 				1A96D67F2BCD591700115802 /* LaunchScreen.storyboard in Resources */,
+				1A96D69E2BCD5F8A00115802 /* Gilroy-Bold.ttf in Resources */,
+				1A96D69F2BCD5F8A00115802 /* Gilroy-Lightitalic.ttf in Resources */,
 				1A96D67C2BCD591700115802 /* Assets.xcassets in Resources */,
+				1A96D6AB2BCD5FEC00115802 /* zvukNepravilnogo.mp3 in Resources */,
+				1A96D6A72BCD5FEC00115802 /* budilnik.mp3 in Resources */,
+				1A96D6A82BCD5FEC00115802 /* otvetPrinyat.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
