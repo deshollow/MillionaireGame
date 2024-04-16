@@ -24,6 +24,16 @@
 		1A96D6AD2BCD60BA00115802 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D6AC2BCD60BA00115802 /* Question.swift */; };
 		1A96D6AF2BCD63BE00115802 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D6AE2BCD63BE00115802 /* Quiz.swift */; };
 		1A96D6B12BCD641400115802 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D6B02BCD641400115802 /* Rules.swift */; };
+		1A96D6B32BCE993E00115802 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D6B22BCE993E00115802 /* StartView.swift */; };
+		1A96D6B52BCE99A800115802 /* UIStackViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D6B42BCE99A800115802 /* UIStackViewExt.swift */; };
+		1A96D6B72BCE99F800115802 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D6B62BCE99F800115802 /* UIButtonExt.swift */; };
+		1A96D6B92BCE9A1C00115802 /* UILabelExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D6B82BCE9A1C00115802 /* UILabelExt.swift */; };
+		1A96D6BB2BCE9A4E00115802 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D6BA2BCE9A4E00115802 /* RulesViewController.swift */; };
+		1A96D6BD2BCE9AB100115802 /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D6BC2BCE9AB100115802 /* RulesView.swift */; };
+		1A96D6BF2BCE9ACC00115802 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D6BE2BCE9ACC00115802 /* GameView.swift */; };
+		1A96D6C12BCE9AEB00115802 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D6C02BCE9AEB00115802 /* ResultTableViewCell.swift */; };
+		1A96D6C32BCE9B2700115802 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D6C22BCE9B2700115802 /* GameOverView.swift */; };
+		1A96D6C52BCE9B4E00115802 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A96D6C42BCE9B4E00115802 /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +56,16 @@
 		1A96D6AC2BCD60BA00115802 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		1A96D6AE2BCD63BE00115802 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		1A96D6B02BCD641400115802 /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		1A96D6B22BCE993E00115802 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		1A96D6B42BCE99A800115802 /* UIStackViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewExt.swift; sourceTree = "<group>"; };
+		1A96D6B62BCE99F800115802 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		1A96D6B82BCE9A1C00115802 /* UILabelExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExt.swift; sourceTree = "<group>"; };
+		1A96D6BA2BCE9A4E00115802 /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		1A96D6BC2BCE9AB100115802 /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		1A96D6BE2BCE9ACC00115802 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		1A96D6C02BCE9AEB00115802 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		1A96D6C22BCE9B2700115802 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		1A96D6C42BCE9B4E00115802 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +138,12 @@
 		1A96D6882BCD596B00115802 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1A96D6B22BCE993E00115802 /* StartView.swift */,
+				1A96D6BC2BCE9AB100115802 /* RulesView.swift */,
+				1A96D6BE2BCE9ACC00115802 /* GameView.swift */,
+				1A96D6C02BCE9AEB00115802 /* ResultTableViewCell.swift */,
+				1A96D6C22BCE9B2700115802 /* GameOverView.swift */,
+				1A96D6C42BCE9B4E00115802 /* ResultView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -126,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				1A96D6762BCD591400115802 /* StartViewController.swift */,
+				1A96D6BA2BCE9A4E00115802 /* RulesViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -140,6 +167,9 @@
 		1A96D68B2BCD599600115802 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1A96D6B42BCE99A800115802 /* UIStackViewExt.swift */,
+				1A96D6B62BCE99F800115802 /* UIButtonExt.swift */,
+				1A96D6B82BCE9A1C00115802 /* UILabelExt.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -245,10 +275,20 @@
 			files = (
 				1A96D6772BCD591400115802 /* StartViewController.swift in Sources */,
 				1A96D6AF2BCD63BE00115802 /* Quiz.swift in Sources */,
+				1A96D6C12BCE9AEB00115802 /* ResultTableViewCell.swift in Sources */,
+				1A96D6B92BCE9A1C00115802 /* UILabelExt.swift in Sources */,
 				1A96D6AD2BCD60BA00115802 /* Question.swift in Sources */,
+				1A96D6C52BCE9B4E00115802 /* ResultView.swift in Sources */,
 				1A96D6732BCD591400115802 /* AppDelegate.swift in Sources */,
 				1A96D6752BCD591400115802 /* SceneDelegate.swift in Sources */,
 				1A96D6B12BCD641400115802 /* Rules.swift in Sources */,
+				1A96D6B32BCE993E00115802 /* StartView.swift in Sources */,
+				1A96D6BD2BCE9AB100115802 /* RulesView.swift in Sources */,
+				1A96D6C32BCE9B2700115802 /* GameOverView.swift in Sources */,
+				1A96D6B72BCE99F800115802 /* UIButtonExt.swift in Sources */,
+				1A96D6BB2BCE9A4E00115802 /* RulesViewController.swift in Sources */,
+				1A96D6BF2BCE9ACC00115802 /* GameView.swift in Sources */,
+				1A96D6B52BCE99A800115802 /* UIStackViewExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

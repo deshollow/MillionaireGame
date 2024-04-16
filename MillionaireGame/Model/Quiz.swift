@@ -8,19 +8,18 @@
 import Foundation
 
 struct Quiz {
-    
-    ///Текущий порядковый номер вопроса(не индекс)
+    ///текущий порядковый номер вопроса(не индекс)
     var currentQuestionNumber = 1
-    ///Все суммы возможного выигрыша
+    ///все суммы возможного выигрыша
     static let sums = [1: "100 RUB", 2: "200 RUB", 3: "300 RUB", 4: "500 RUB", 5: "1000 RUB", 6: "2000 RUB", 7: "4000 RUB", 8: "8000 RUB", 9: "16000 RUB", 10: "32000 RUB", 11: "64000 RUB", 12: "125000 RUB", 13: "250000 RUB", 14: "500000 RUB", 15: "1 миллион"]
-    ///Несгораемые суммы возможного выигрыша
+    ///несгораемые суммы возможного выигрыша
     static let milestoneSums = ["1000 RUB", "32000 RUB", "1 миллион"]
-    ///Хранит последнюю несгораемую сумму, если она была достигнута
+    ///хранит последнюю несгораемую сумму, если она была достигнута
     static var lastMilestone: String?
     
     private let questions: [[Question]]
-    private var currentQuestionSection = 0 //Внутренняя переменная для индекса вопроса в текущей секции
-    private var currentQuestionIndexInSection = 0 //Внутренняя переменная для индекса текущей секции
+    private var currentQuestionSection = 0 //внутренняя переменная для индекса вопроса в текущей секции
+    private var currentQuestionIndexInSection = 0 //внутренняя переменная для индекса текущей секции
     private let easyQuestions = [Question(questionText: "Как называется столица Франции?",
                                           answers: [Answer(text: "Мадрид"), Answer(text: "Париж"), Answer(text: "Лондон"), Answer(text: "Берлин")], correctAnswerIndex: 1),
                                  Question(questionText: "Сколько планет в Солнечной системе?",
@@ -53,7 +52,7 @@ struct Quiz {
                                                        answers: [Answer(text: "Мальта"), Answer(text: "Ватикан"), Answer(text: "Тувалу"), Answer(text: "Монако")], correctAnswerIndex: 1)]
     
     init() {
-        //Перемешиваем вопросы в каждой секции перед началом игры
+        //перемешиваем вопросы в каждой секции перед началом игры
         questions = [easyQuestions.shuffled(),
                      mediumQuestion.shuffled(),
                      hardQuestions.shuffled()]
@@ -78,7 +77,7 @@ struct Quiz {
         return index
     }
     
-    //Переход к следующему вопросу
+    //переход к следующему вопросу
     private mutating func nextQuestion() {
         currentQuestionNumber += 1
         if currentQuestionIndexInSection == questions[currentQuestionSection].count - 1 {
@@ -99,5 +98,4 @@ struct Quiz {
         currentQuestionIndexInSection = 0
         Quiz.lastMilestone = nil
     }
-    
 }
