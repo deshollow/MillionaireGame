@@ -16,7 +16,7 @@ class StartViewController: UIViewController {
         addActions()
         
     }
-    ///экшн на кнопки
+    //экшн на кнопки
     func addActions() {
         let tapRules = UIAction { _ in
             print("переход в правила")

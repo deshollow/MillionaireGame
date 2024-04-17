@@ -7,7 +7,7 @@
 
 import UIKit
 
-///расширение для кнопок ответов
+//расширение для кнопок ответов
 extension UIButton {
     convenience init(text: String, alignment: UIControl.ContentHorizontalAlignment) {
         self.init()
@@ -23,7 +23,7 @@ extension UIButton {
         self.titleEdgeInsets = UIEdgeInsets(top: 0, left: inset, bottom: 0, right: 0)
     }
 }
-///расширение для кнопок подсказок
+//расширение для кнопок подсказок
 extension UIButton {
     convenience init(imageNamed: String, width: CGFloat, height: CGFloat) {
         self.init(type: .system)
@@ -32,7 +32,7 @@ extension UIButton {
         self.heightAnchor.constraint(equalToConstant: height).isActive = true
     }
 }
-///расширение на алерт
+//расширение на алерт
 extension UIButton {
     convenience init(title: String, backgroundImage: UIImage?) {
         self.init()

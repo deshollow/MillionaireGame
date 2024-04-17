@@ -9,6 +9,8 @@ import UIKit
 
 class GameView: UIView {
     
+    // MARK: - элементы UI
+    
     let backgroundImage = UIImageView(image: UIImage(named: "bgHumans"))
     let showProgressButton = UIButton()
     let exitButton = UIButton()
@@ -30,6 +32,8 @@ class GameView: UIView {
     let buttonAnswerD = UIButton(text: "D: Answer Fourth", alignment: .leading)
     
     let takeMoneyButton = UIButton(text: "Забрать деньги", alignment: .center)
+    
+    // MARK: - сетап UI и инициализация
     
     init() {
         super.init(frame: CGRect())
@@ -93,6 +97,8 @@ class GameView: UIView {
         backgroundImage.translatesAutoresizingMaskIntoConstraints = false
         mainStack.translatesAutoresizingMaskIntoConstraints = false
         
+        // MARK: - констрейнты
+        
         NSLayoutConstraint.activate([
             
             backgroundImage.topAnchor.constraint(equalTo: topAnchor),
@@ -120,6 +126,8 @@ class GameView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 }
+
+// MARK: - билд UI
 
 import SwiftUI
 struct GameViewProvider: PreviewProvider {

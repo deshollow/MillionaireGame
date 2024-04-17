@@ -6,7 +6,7 @@
 //
 
 import UIKit
-///расширение для лейбла
+//расширение для лейбла
 extension UILabel {
     convenience init(text: String) {
         self.init()

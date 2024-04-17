@@ -6,7 +6,7 @@
 //
 
 import UIKit
-///расширение для стека
+//расширение для стека
 extension UIStackView {
     convenience init(views: [UIView], axis: NSLayoutConstraint.Axis, spacing: CGFloat, alignment: Alignment = .center) {
         self.init(arrangedSubviews: views)
